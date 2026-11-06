@@ -64,7 +64,7 @@
 //========Step 01==========//
 // function getsum(num1,num2){
 //     return num1+num2;
-   
+
 // }
 
 // let getsum=function(num1,num2){
@@ -85,17 +85,17 @@
 
 
 
- const number = [10,20,30,40,50,60,70,80,90,100];
+const number = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 
-function displayreplacement(){
-    let oldnumber = Number (document.getElementById("oldnumber").value);
-    let newnumber = Number (document.getElementById("newnumber").value);
+function displayreplacement() {
+    let oldnumber = Number(document.getElementById("oldnumber").value);
+    let newnumber = Number(document.getElementById("newnumber").value);
 
     let index = number.indexOf(Number(oldnumber));
 
     number[index] = newnumber;
 
     console.log(number);
-    
+
 }
 

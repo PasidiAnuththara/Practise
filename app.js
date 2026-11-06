@@ -107,6 +107,28 @@ function displayreplacement() {
 
 }*/
 
-const nameList = ["saman","kamal","yamal","jemal"];
+/*const nameList = ["saman","kamal","yamal","jemal"];
 
-nameList.forEach(cName => console.log(cName));
+nameList.forEach(cName => console.log(cName));*/
+
+//=====================
+
+/*const empSalary = [75000,30000,25000,90000,150000];
+
+const empSalary1 = [];
+
+for(let salary of empSalary){
+    let newsalary = salary*2
+    empSalary1.push(newsalary)
+}
+    console.log(empSalary);
+    console.log(empSalary1);*/
+
+
+   /* const nameList = [75000,30000,25000,90000,150000];
+
+    console.log(nameList.map(add=>" welcome "+add));*/
+
+
+    
+    

@@ -59,24 +59,43 @@
 // console.log(number)
 // console.log(number.indexOf(100));
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const number = [10,20,30,40,50,60,70,80,90,100];
+//========Step 01==========//
+// function getsum(num1,num2){
+//     return num1+num2;
+   
+// }
 
-function displayTable(){
-    let body = ""
-    for(let num of numbers){
-        body += document.getElementById("txtar").innerHTML = `<tr>
-            <td>${num}</td>
-        </tr>
-        `
-    }
-    document.getElementById
-}
+// let getsum=function(num1,num2){
+//     return num1+num2;
+// }
 
-function addBtn() {
-    let newValue = document.getElementById("AddArray").value;
-    number.push(newValue);
-    document.getElementById("txtarray").value = "";
-    displayTable();
+// let getsum = (num1,num2)=>{
+//     {return num1+num2};
+// }
+
+// let getsum=num1 =>{
+//     return num1;
+// }
+
+// let getsum=num1=>num1;
+
+// console.log(getsum(10,20));
+
+
+
+ const number = [10,20,30,40,50,60,70,80,90,100];
+
+function displayreplacement(){
+    let oldnumber = Number (document.getElementById("oldnumber").value);
+    let newnumber = Number (document.getElementById("newnumber").value);
+
+    let index = number.indexOf(Number(oldnumber));
+
+    number[index] = newnumber;
+
+    console.log(number);
+    
 }
 

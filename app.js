@@ -109,9 +109,4 @@ function displayreplacement() {
 
 const nameList = ["saman","kamal","yamal","jemal"];
 
-let forLoop = (cName) => {
-    console.log(cName)
-}
-
-nameList.forEach(forLoop);
-
+nameList.forEach(cName => console.log(cName));

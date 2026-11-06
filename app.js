@@ -64,28 +64,36 @@
 //========Step 01==========//
 // function getsum(num1,num2){
 //     return num1+num2;
-
 // }
 
+//========Step 02==========//
 // let getsum=function(num1,num2){
 //     return num1+num2;
 // }
+
+//========Step 03==========//
 
 // let getsum = (num1,num2)=>{
 //     {return num1+num2};
 // }
 
+//========Step 04==========//
+
 // let getsum=num1 =>{
 //     return num1;
 // }
 
+//========Step 05==========//
+
 // let getsum=num1=>num1;
+
+//========Step 06==========//
 
 // console.log(getsum(10,20));
 
 
 
-const number = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+/*const number = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 
 function displayreplacement() {
     let oldnumber = Number(document.getElementById("oldnumber").value);
@@ -97,5 +105,13 @@ function displayreplacement() {
 
     console.log(number);
 
+}*/
+
+const nameList = ["saman","kamal","yamal","jemal"];
+
+let forLoop = (cName) => {
+    console.log(cName)
 }
+
+nameList.forEach(forLoop);
 

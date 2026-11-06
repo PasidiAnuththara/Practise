@@ -21,11 +21,34 @@
 
 //===================const===================//
 
-const NumberArray = [10,20,30,40];
-console.log(NumberArray);
+// const NumberArray = [10,20,30,40];
+// console.log(NumberArray);
 
-NumberArray = "Hello";
-console.log(NumberArray);
+// NumberArray = "Hello";
+// console.log(NumberArray);
+
+const number = [10,20,30,40,50,60,70];
+// console.log(number);
+
+// console.log(number[3]);
+
+//======push to array=====//
+number.push(80);
+console.log(number);
+
+
+//=======pop the array===============//
+number.pop();
+console.log(number);
+
+//=========Riverse array===================//
+console.log(number.toReversed());
+console.log(number);
+
+
+
+
+
  
 
 

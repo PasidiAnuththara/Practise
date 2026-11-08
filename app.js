@@ -125,10 +125,64 @@ for(let salary of empSalary){
     console.log(empSalary1);*/
 
 
-   /* const nameList = [75000,30000,25000,90000,150000];
+/* const nameList = [75000,30000,25000,90000,150000];
 
-    console.log(nameList.map(add=>" welcome "+add));*/
+ console.log(nameList.map(add=>" welcome "+add));*/
 
 
-    
-    
+
+/*const productList=[
+    {
+        id:1,
+        name:"Bun",
+        price:350,
+    },
+
+    {
+        id:2,
+        name:"car",
+        price:350,
+    },
+
+    {
+        id:3,
+        name:"Milk",
+        price:1000,
+    },
+
+    {
+        id:4,
+        name:"Rice",
+        price:1200
+    }
+]
+
+console.log(productList.map(tax=>tax.price-(tax.price%15) ));*/
+
+/*function displayreplacement(){
+    Swal.fire({
+        title: "Good job!",
+        text: "You clicked the button!",
+        icon: "success"
+    });
+}*/
+
+//=====Var====//
+{
+    var customerName = "Pasidi";
+    let address = "Negombo"; 
+}
+
+console.log(customerName);
+console.log(address);
+
+//==============let==================//
+
+let NumberArray = [10,20,30,40];
+/*console.log(NumberArray);*/
+
+NumberArray = "60";
+/*console.log(NumberArray);*/
+
+
+ 

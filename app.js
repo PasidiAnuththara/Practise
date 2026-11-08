@@ -168,21 +168,21 @@ console.log(productList.map(tax=>tax.price-(tax.price%15) ));*/
 }*/
 
 //=====Var====//
-{
-    var customerName = "Pasidi";
-    let address = "Negombo"; 
-}
+// {
+//     var customerName = "Pasidi";
+//     let address = "Negombo"; 
+// }
 
-console.log(customerName);
-console.log(address);
+// console.log(customerName);
+// console.log(address);
 
-//==============let==================//
+// //==============let==================//
 
-let NumberArray = [10,20,30,40];
-/*console.log(NumberArray);*/
+// let NumberArray = [10,20,30,40];
+// console.log(NumberArray);
 
-NumberArray = "60";
-/*console.log(NumberArray);*/
+// NumberArray = "60";
+// console.log(NumberArray);
 
 
  
